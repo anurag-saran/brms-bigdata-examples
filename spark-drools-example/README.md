@@ -31,5 +31,5 @@ can run this example by doing the following:
 ```
 cd /vagrant
 mvn package
-/opt/spark-1.4.1-bin-hadoop2.6/bin/spark-submit --class "com.awesome.App" --master local[4] target/SparkDroolsExample-1.0-SNAPSHOT.jar
+/opt/spark-1.6.1-bin-hadoop2.6/bin/spark-submit --class "com.awesome.App" --master local[4] target/SparkDroolsExample-1.0-SNAPSHOT.jar
 ```
